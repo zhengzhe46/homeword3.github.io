@@ -329,7 +329,7 @@ header h5
     width: 100%;
 }
 .webpage1img:hover{
-    transform:rotate(20deg);
+    transform:rotate(360deg);
 }
 .button{
     position: absolute;
