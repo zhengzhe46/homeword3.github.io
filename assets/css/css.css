@@ -350,6 +350,76 @@ header h5
 }
 
 
+/*---------------------- start icons-------------------*/
+#ic .icons
+{
+  /*border: 2px solid black;*/
+  position: fixed;
+  top: 30%;
+  right: 0%;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  z-index: 9999; 
+}
+
+#ic .icons a 
+{
+
+  text-decoration: none; 
+  padding: 10px;
+  font-size: 22px;
+  font-family: 'Oswald', sans-serif;
+  margin: 5%;
+  text-align: right;
+  border-radius: 0px 50px 50px 0px;
+  transform: translate(-140px,0px);
+  transition: all 0.5s;
+}
+#ic .icons a:hover
+{
+  transform: translate(0px,0px);
+}
+
+.facebook
+{
+  background: rgba(200, 200, 250, 0.5);
+  color: #fff;
+}
+
+.instagram
+{
+  background: rgba(600, 200, 250, 0.5);
+  color: #fff;
+}
+
+.github
+{
+  background: rgba(600, 600, 250, 0.5);
+  color: #fff;
+}
+/*---------------------- end icons-------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer{
   
   background: rgba(100, 100, 100, 0.5);
