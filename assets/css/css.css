@@ -1,0 +1,378 @@
+*,
+*::before,
+*::after{
+    box-sizing:border-box;
+}
+
+*:focus{
+    outline: none;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+    background: #000;
+    color: white;
+    font-family: "Oxygen", sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+.home img{
+    width: 100%;
+    -webkit-filter: grayscale(100%)contrast(100%);
+    filter: grayscale(100%)contrast(200%)brightness(60%);
+}
+
+
+.folio img{
+    filter:grayscale(100%);
+}
+
+aside
+{
+    position: fixed;
+    background: #222;
+    top:0px;
+    left: 0px;
+    width: 120px;
+    height: 100%;
+    overflow: none;
+    z-index: 1;
+    text-align: center;
+    padding: 0;
+}
+
+/* ---------在左邊的相片-----------  */
+aside img
+{
+    filter: grayscale(0%) contrast(100%) brightness(100%);
+    margin-top: -3px;
+}
+
+
+.material-icons.md-36
+{
+    font-size: 36px;
+    padding: 15px 0;
+}
+
+aside a
+{
+    display: black;
+    padding: 15px auto;
+    color: white;
+    transition: all 0.35s;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    letter-spacing: 2px;
+}
+
+aside p
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+aside a:hover
+{
+    background: #000;
+}
+
+
+aside .nav a:nth-child(2)
+{
+    background: #000;
+}
+
+
+aside .nav a:nth-child(2):hover
+{
+    background: #b2b2b2;
+    color: #222;
+}
+
+main
+{
+    max-width: 980px;
+    background: #000;
+    margin-left: 20%;
+    padding: 12px 50px 12px 50px;
+}
+
+
+header
+{
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+header h1
+{
+    font-weight: bold;
+    font-size: 4em;
+    letter-spacing: 4px;
+}
+
+header h5
+{
+    font-weight: 300;
+    font-size: 1em;
+    letter-spacing: 4px;
+    color: #b2b2b2;
+}
+
+
+.about,.folio,.contact
+{
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    font-weight: 300;
+    padding: 12px 50px 12px 50px;
+    max-width: 980px;
+    margin-left: 20%;
+
+}
+
+.about h2,.folio h2,.contact h2
+{
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    padding-bottom: 10px;
+    margin: 100px 0 0 0;
+    letter-spacing: 4px;
+}
+
+.about p
+{
+    color: #b2b2b2;
+}
+
+.about span
+{
+    font-weight: 600;
+    color: white;
+}
+
+.about h3
+{
+    font-weight: 300;
+    margin: 50px 0;
+}
+
+
+.line
+{
+    width: 100%;
+    background-color: #b2b2b2;
+
+}
+
+.skills
+{
+    text-align: right;
+    padding-right: 20px;
+    line-height: 30px;
+    color: white;
+    background-color: #424242;
+    animation: animate 4s ease-in-out forwards;
+}
+
+ @keyframes animate
+ {
+     from
+     {
+        width: 0;
+     }
+ }
+
+.java
+{
+    width: 40%;
+}
+
+
+.html
+{
+    width: 85%;
+}
+
+
+.css
+{
+    width: 70%;
+}
+
+
+.js
+{
+    width: 60%;
+}
+
+.jq
+{
+    width: 60%;
+}
+
+/*-------------experience------------------*/
+
+#Experience
+{
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    font-weight: 300;
+    padding: 12px 50px 12px 50px;
+    max-width: 980px;
+    margin-left: 20%;
+}
+
+#Experience .col-md-6
+{
+    padding: 20px 10px;
+
+}
+
+#Experience h3
+{
+    margin: 20px auto;
+    font-weight: bold;
+}
+
+.IMG{
+    width: 50%;
+    overflow: hidden;
+
+}
+
+.IMG img{
+    width: 100%;
+    transition: all 0.6s;
+}
+
+.IMG img:hover{
+    transform: scale(1.2);
+}
+
+
+/*-------網頁作品--------*/
+
+.webpage h2
+{
+    margin: 50px auto;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+
+.webpage{
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    font-weight: 300;
+    padding: 12px 50px 12px 50px;
+    max-width: 980px;
+    margin-left: 20%;
+}
+
+.webpage1{
+    width: 80%;
+    height: 300px;
+    /*background-color: red; */
+    margin-right: 50%;
+    margin-top: 30px;
+    float: right;
+    transform: translateX(50%);
+}
+.webpage2{
+    width: 80%;
+    height: 300px;
+    /*background-color: red;*/
+    margin-left: 50%;
+    float: left;
+    margin-top: 50px;
+    transform:translateX(-50%);
+}
+
+
+.webpageW{
+    width: 300px;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+.webpageWord{
+    display: inline-block;
+}
+.webpage1img{
+    width: 350px;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    margin-top: -60px;
+    box-shadow:3px 3px 5px 6px #cccccc;
+    overflow: hidden;
+}
+.webpage1img img{
+    width: 100%;
+}
+.webpage1img:hover{
+    transform:rotate(20deg);
+}
+.button{
+    position: absolute;
+    width: 145px;
+    height: 40px;
+    background-color:#FFFFFF;
+    font-size: 17px;
+    line-height: 35px;
+    text-align: center;
+    border-style: solid;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #222;
+}
+.button:hover{
+    background-color:#222;
+    color: #FFFFFF;
+}
+
+
+.footer{
+  
+  background: rgba(100, 100, 100, 0.5);
+  overflow: hidden;
+  width:100%;
+  min-width:1280px;
+  overflow: hidden;
+  color: #FFFFFF;
+  text-align: center;
+}
+.FW{
+  margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
